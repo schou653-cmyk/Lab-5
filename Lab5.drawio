@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="uqy3iXMMFV-1Y0v8_6UO">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iAHtm6AMBQgK2LA0fOwK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;i&gt;WEAPONS&lt;/i&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;name :str&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;damage: int&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;init(name:str, damage: int)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;save(filename:str):None&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;repr() : str&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;str(): str&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="200" x="270" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="puqpiEhPKEGLHb6HT99l-2" edge="1" parent="1" source="puqpiEhPKEGLHb6HT99l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="puqpiEhPKEGLHb6HT99l-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MELEE WEAPON&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;init(name:str, damage: int)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;save(filename:str): None&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;repr(): str&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="160" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-4" edge="1" parent="1" source="puqpiEhPKEGLHb6HT99l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="puqpiEhPKEGLHb6HT99l-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;div&gt;RANGED WEAPON&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;range: int&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;init(name:str, damage: int)&lt;/div&gt;&lt;div&gt;&lt;i&gt;save(filename:str): None&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;repr(): str&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="150" x="430" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-9" edge="1" parent="1" source="puqpiEhPKEGLHb6HT99l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="puqpiEhPKEGLHb6HT99l-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="puqpiEhPKEGLHb6HT99l-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MAGIC WEAPON&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Mana cost: int&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;init(name:str, damage: int)&lt;/div&gt;&lt;div&gt;&lt;i&gt;save(filename:str): None&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;repr(): str&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="150" x="430" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="puqpiEhPKEGLHb6HT99l-7" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="320" y="50" as="sourcePoint" />
+            <mxPoint x="420" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="puqpiEhPKEGLHb6HT99l-9" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="314" y="100" as="sourcePoint" />
+            <mxPoint x="414" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-1" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint x="550" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-5" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="460" y="440" as="sourcePoint" />
+            <mxPoint x="560" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-6" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="460" y="480" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-7" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="450" y="310" as="sourcePoint" />
+            <mxPoint x="550" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3sEZAZf4lcx0i8ZKPSb-8" edge="1" parent="1" style="shape=link;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <mxPoint x="185" y="290" as="sourcePoint" />
+            <mxPoint x="285" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
