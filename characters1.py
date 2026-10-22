@@ -105,3 +105,6 @@ class MagicWeapon(RangedWeapon):
 
     def __repr__(self) -> str:
         return f"MagicWeapon,{self.name},{self.damage},{self.range},{self.mana_cost}"
+
+
+    

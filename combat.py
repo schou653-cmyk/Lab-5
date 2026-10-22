@@ -1,4 +1,4 @@
-from characters import Character, Mage, Weapon, MagicWeapon
+from characters1 import Character, Mage, Weapon, MagicWeapon
 
 
 def attack(attacker: Character, weapon: Weapon, target: Character, distance: int) -> None:
@@ -19,5 +19,5 @@ def attack(attacker: Character, weapon: Weapon, target: Character, distance: int
         raise ValueError(f"Out of Range: Distance {distance} exceeds {weapon.name}'s maximum range of {weapon.range}.")
 
     # Deduct damage from target
-    target.health -= weapon.damage
+    target.health = max(0, target.health - weapon.damage)
     print(f"{attacker.name} attacked {target.name} with {weapon.name} at distance {distance}m for {weapon.damage} dmg! ({target.name} HP: {target.health})")

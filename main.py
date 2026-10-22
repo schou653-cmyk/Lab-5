@@ -1,4 +1,4 @@
-from characters import Fighter, Mage, MeleeWeapon, RangedWeapon, MagicWeapon
+from characters1 import Fighter, Mage, MeleeWeapon, RangedWeapon, MagicWeapon
 from combat import attack
 
 
