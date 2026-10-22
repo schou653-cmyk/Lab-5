@@ -54,6 +54,8 @@ class Mage(Character):
         return f"Mage,{self.name},{self.health},{self.mana}"
 
 
+###WEAPON CLASSES###
+
 class Weapon(ABC):
     def __init__(self, name: str, damage: int):
         self.name = name
