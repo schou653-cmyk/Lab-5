@@ -1,0 +1,3 @@
+MeleeWeapon,Broadsword,25
+RangedWeapon,Longbow,20,50
+MagicWeapon,Staff of Light,45,30,25
