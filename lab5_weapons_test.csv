@@ -1,0 +1,3 @@
+MeleeWeapon,Sword,15
+RangedWeapon,Bow,12,10
+MagicWeapon,Magic,20,10,5
